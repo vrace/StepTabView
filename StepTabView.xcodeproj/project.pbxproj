@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11AD3FF81B344D2000DEA9FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AD3FF71B344D2000DEA9FB /* AppDelegate.swift */; };
+		11AD3FFA1B344D2000DEA9FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AD3FF91B344D2000DEA9FB /* ViewController.swift */; };
+		11AD3FFD1B344D2000DEA9FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11AD3FFB1B344D2000DEA9FB /* Main.storyboard */; };
+		11AD3FFF1B344D2000DEA9FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11AD3FFE1B344D2000DEA9FB /* Images.xcassets */; };
+		11AD40021B344D2000DEA9FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11AD40001B344D2000DEA9FB /* LaunchScreen.xib */; };
+		11AD400E1B344D2000DEA9FB /* StepTabViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AD400D1B344D2000DEA9FB /* StepTabViewTests.swift */; };
+		11AD40181B344D8800DEA9FB /* StepTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AD40171B344D8800DEA9FB /* StepTabView.swift */; };
+		11AD401B1B344DEB00DEA9FB /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AD40191B344DEB00DEA9FB /* checkmark.png */; };
+		11AD401C1B344DEB00DEA9FB /* indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AD401A1B344DEB00DEA9FB /* indicator.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11AD40081B344D2000DEA9FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11AD3FEA1B344D2000DEA9FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11AD3FF11B344D2000DEA9FB;
+			remoteInfo = StepTabView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11AD3FF21B344D2000DEA9FB /* StepTabView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepTabView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11AD3FF61B344D2000DEA9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11AD3FF71B344D2000DEA9FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11AD3FF91B344D2000DEA9FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11AD3FFC1B344D2000DEA9FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11AD3FFE1B344D2000DEA9FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		11AD40011B344D2000DEA9FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		11AD40071B344D2000DEA9FB /* StepTabViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepTabViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11AD400C1B344D2000DEA9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11AD400D1B344D2000DEA9FB /* StepTabViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTabViewTests.swift; sourceTree = "<group>"; };
+		11AD40171B344D8800DEA9FB /* StepTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepTabView.swift; sourceTree = "<group>"; };
+		11AD40191B344DEB00DEA9FB /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		11AD401A1B344DEB00DEA9FB /* indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indicator.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11AD3FEF1B344D2000DEA9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11AD40041B344D2000DEA9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11AD3FE91B344D2000DEA9FB = {
+			isa = PBXGroup;
+			children = (
+				11AD3FF41B344D2000DEA9FB /* StepTabView */,
+				11AD400A1B344D2000DEA9FB /* StepTabViewTests */,
+				11AD3FF31B344D2000DEA9FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11AD3FF31B344D2000DEA9FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11AD3FF21B344D2000DEA9FB /* StepTabView.app */,
+				11AD40071B344D2000DEA9FB /* StepTabViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11AD3FF41B344D2000DEA9FB /* StepTabView */ = {
+			isa = PBXGroup;
+			children = (
+				11AD40191B344DEB00DEA9FB /* checkmark.png */,
+				11AD401A1B344DEB00DEA9FB /* indicator.png */,
+				11AD40171B344D8800DEA9FB /* StepTabView.swift */,
+				11AD3FF71B344D2000DEA9FB /* AppDelegate.swift */,
+				11AD3FF91B344D2000DEA9FB /* ViewController.swift */,
+				11AD3FFB1B344D2000DEA9FB /* Main.storyboard */,
+				11AD3FFE1B344D2000DEA9FB /* Images.xcassets */,
+				11AD40001B344D2000DEA9FB /* LaunchScreen.xib */,
+				11AD3FF51B344D2000DEA9FB /* Supporting Files */,
+			);
+			path = StepTabView;
+			sourceTree = "<group>";
+		};
+		11AD3FF51B344D2000DEA9FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11AD3FF61B344D2000DEA9FB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11AD400A1B344D2000DEA9FB /* StepTabViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				11AD400D1B344D2000DEA9FB /* StepTabViewTests.swift */,
+				11AD400B1B344D2000DEA9FB /* Supporting Files */,
+			);
+			path = StepTabViewTests;
+			sourceTree = "<group>";
+		};
+		11AD400B1B344D2000DEA9FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11AD400C1B344D2000DEA9FB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11AD3FF11B344D2000DEA9FB /* StepTabView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11AD40111B344D2000DEA9FB /* Build configuration list for PBXNativeTarget "StepTabView" */;
+			buildPhases = (
+				11AD3FEE1B344D2000DEA9FB /* Sources */,
+				11AD3FEF1B344D2000DEA9FB /* Frameworks */,
+				11AD3FF01B344D2000DEA9FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StepTabView;
+			productName = StepTabView;
+			productReference = 11AD3FF21B344D2000DEA9FB /* StepTabView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11AD40061B344D2000DEA9FB /* StepTabViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11AD40141B344D2000DEA9FB /* Build configuration list for PBXNativeTarget "StepTabViewTests" */;
+			buildPhases = (
+				11AD40031B344D2000DEA9FB /* Sources */,
+				11AD40041B344D2000DEA9FB /* Frameworks */,
+				11AD40051B344D2000DEA9FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11AD40091B344D2000DEA9FB /* PBXTargetDependency */,
+			);
+			name = StepTabViewTests;
+			productName = StepTabViewTests;
+			productReference = 11AD40071B344D2000DEA9FB /* StepTabViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11AD3FEA1B344D2000DEA9FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Liu Yang";
+				TargetAttributes = {
+					11AD3FF11B344D2000DEA9FB = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					11AD40061B344D2000DEA9FB = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 11AD3FF11B344D2000DEA9FB;
+					};
+				};
+			};
+			buildConfigurationList = 11AD3FED1B344D2000DEA9FB /* Build configuration list for PBXProject "StepTabView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11AD3FE91B344D2000DEA9FB;
+			productRefGroup = 11AD3FF31B344D2000DEA9FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11AD3FF11B344D2000DEA9FB /* StepTabView */,
+				11AD40061B344D2000DEA9FB /* StepTabViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11AD3FF01B344D2000DEA9FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11AD401C1B344DEB00DEA9FB /* indicator.png in Resources */,
+				11AD3FFD1B344D2000DEA9FB /* Main.storyboard in Resources */,
+				11AD401B1B344DEB00DEA9FB /* checkmark.png in Resources */,
+				11AD40021B344D2000DEA9FB /* LaunchScreen.xib in Resources */,
+				11AD3FFF1B344D2000DEA9FB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11AD40051B344D2000DEA9FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11AD3FEE1B344D2000DEA9FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11AD3FFA1B344D2000DEA9FB /* ViewController.swift in Sources */,
+				11AD40181B344D8800DEA9FB /* StepTabView.swift in Sources */,
+				11AD3FF81B344D2000DEA9FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11AD40031B344D2000DEA9FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11AD400E1B344D2000DEA9FB /* StepTabViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11AD40091B344D2000DEA9FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11AD3FF11B344D2000DEA9FB /* StepTabView */;
+			targetProxy = 11AD40081B344D2000DEA9FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11AD3FFB1B344D2000DEA9FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11AD3FFC1B344D2000DEA9FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11AD40001B344D2000DEA9FB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11AD40011B344D2000DEA9FB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11AD400F1B344D2000DEA9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11AD40101B344D2000DEA9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11AD40121B344D2000DEA9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StepTabView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11AD40131B344D2000DEA9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StepTabView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		11AD40151B344D2000DEA9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StepTabViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepTabView.app/StepTabView";
+			};
+			name = Debug;
+		};
+		11AD40161B344D2000DEA9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StepTabViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepTabView.app/StepTabView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11AD3FED1B344D2000DEA9FB /* Build configuration list for PBXProject "StepTabView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11AD400F1B344D2000DEA9FB /* Debug */,
+				11AD40101B344D2000DEA9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11AD40111B344D2000DEA9FB /* Build configuration list for PBXNativeTarget "StepTabView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11AD40121B344D2000DEA9FB /* Debug */,
+				11AD40131B344D2000DEA9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11AD40141B344D2000DEA9FB /* Build configuration list for PBXNativeTarget "StepTabViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11AD40151B344D2000DEA9FB /* Debug */,
+				11AD40161B344D2000DEA9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11AD3FEA1B344D2000DEA9FB /* Project object */;
+}
